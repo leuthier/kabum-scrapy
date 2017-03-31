@@ -288,8 +288,8 @@ class KabumItem(scrapy.Item):
  
  
 #### Tempo gasto
-  * Estudando:
-  * Implementando:
+  * Estudando: 8h
+  * Implementando: 10h
 
 
 #### Programas utilizados
