@@ -22,7 +22,7 @@ $ scrapy runspider login.py
       * [/kabum/items.py](https://github.com/leuthier/kabum-scrapy#arquivo-kabumitemspy)
   * [Tempo gasto](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#tempo-gasto)
   * [Programas utilizados](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#programas-utilizados)
-  * [Referências](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#material)
+  * [Referências](https://github.com/leuthier/kabum-scrapy#referências)
 
 
 #### Objetivos
@@ -300,5 +300,5 @@ class KabumItem(scrapy.Item):
 #### Referências
   * [Guia de 10min com RethinkDB e Python [ENG]](https://www.rethinkdb.com/docs/guide/python/)
   * [Parte I - Configurando e rodando o Scrapy](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-i/)
-  * [Instalando, configurando e armazenando os dados no Rethinkdb](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-ii/)
+  * [Parte II - Instalando, configurando e armazenando os dados no Rethinkdb](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-ii/)
   * [XPath Tutorial [ENG]](https://www.w3schools.com/xml/xpath_intro.asp)
