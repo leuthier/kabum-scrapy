@@ -22,7 +22,7 @@ $ scrapy runspider login.py
       * [/kabum/items.py](https://github.com/leuthier/kabum-scrapy#arquivo-kabumitemspy)
   * [Tempo gasto](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#tempo-gasto)
   * [Programas utilizados](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#programas-utilizados)
-  * [Referências](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#material)
+  * [Referências](https://github.com/leuthier/kabum-scrapy#referências)
 
 
 #### Objetivos
