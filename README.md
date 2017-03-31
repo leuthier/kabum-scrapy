@@ -32,8 +32,9 @@ $ scrapy runspider login.py
 - [x] Utilização de logs para sinalizar ocorrências durante o scraping
 
 
-#### Arquivo: [/kabum/spiders/kb.py](https://github.com/leuthier/kabum-scrapy/blob/master/kabum/spiders/kb.py)
-``` # -*- coding: utf-8 -*-
+#### Arquivo: [/kabum/spiders/kb.py](../blob/master/kabum/spiders/kb.py)
+```python 
+# -*- coding: utf-8 -*-
 import scrapy
 import logging
 from kabum.items import KabumItem
@@ -93,8 +94,9 @@ class KbSpider(scrapy.Spider):
             logging.info('COMPUTERS SCRAPY FINISHED'
 ```
 
-#### Arquivo: [/kabum/pipelines.py](https://github.com/leuthier/kabum-scrapy/blob/master/kabum/pipelines.py)
-``` # -*- coding: utf-8 -*-
+#### Arquivo: [/kabum/pipelines.py](../blob/master/kabum/pipelines.py)
+```python
+# -*- coding: utf-8 -*-
 
 import rethinkdb as r
 
@@ -137,8 +139,9 @@ class RethinkdbPipeline(object):
         return item 
 ```
 
-#### Arquivo: [/kabum/settings.py](https://github.com/leuthier/kabum-scrapy/blob/master/kabum/settings.py)
-``` # -*- coding: utf-8 -*-
+#### Arquivo: [/kabum/settings.py](../blob/master/kabum/settings.py)
+```python
+# -*- coding: utf-8 -*-
 
 # Scrapy settings for kabum project
 #
@@ -239,8 +242,9 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 ```
 
-#### Arquivo: [/kabum/items.py](https://github.com/leuthier/kabum-scrapy/blob/master/kabum/items.py)
-``` # -*- coding: utf-8 -*-
+#### Arquivo: [/kabum/items.py](../blob/master/kabum/items.py)
+```python
+# -*- coding: utf-8 -*-
 import scrapy
 
 #create the KabumItem class with item's attributes to save in database
