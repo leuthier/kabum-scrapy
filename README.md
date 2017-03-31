@@ -32,7 +32,7 @@ $ scrapy runspider login.py
 - [x] Utilização de logs para sinalizar ocorrências durante o scraping
 
 
-#### Arquivo: [/kabum/spiders/kb.py](../blob/master/kabum/spiders/kb.py)
+#### Arquivo: [/kabum/spiders/kb.py](../master/kabum/spiders/kb.py)
 ```python 
 # -*- coding: utf-8 -*-
 import scrapy
@@ -94,7 +94,7 @@ class KbSpider(scrapy.Spider):
             logging.info('COMPUTERS SCRAPY FINISHED'
 ```
 
-#### Arquivo: [/kabum/pipelines.py](../blob/master/kabum/pipelines.py)
+#### Arquivo: [/kabum/pipelines.py](../master/kabum/pipelines.py)
 ```python
 # -*- coding: utf-8 -*-
 
@@ -139,7 +139,7 @@ class RethinkdbPipeline(object):
         return item 
 ```
 
-#### Arquivo: [/kabum/settings.py](../blob/master/kabum/settings.py)
+#### Arquivo: [/kabum/settings.py](../master/kabum/settings.py)
 ```python
 # -*- coding: utf-8 -*-
 
@@ -242,7 +242,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 ```
 
-#### Arquivo: [/kabum/items.py](../blob/master/kabum/items.py)
+#### Arquivo: [/kabum/items.py](../master/kabum/items.py)
 ```python
 # -*- coding: utf-8 -*-
 import scrapy
