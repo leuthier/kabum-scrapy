@@ -16,9 +16,10 @@ $ scrapy runspider login.py
 #### Índice
   * [Objetivos](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#objetivos)
   * Arquivos:
-      * [/kabum/spiders/kb.py](https://github.com/leuthier/kabum-scrapy/blob/master/README.md)
-      * [/kabum/pipelines.py](https://github.com/leuthier/kabum-scrapy/blob/master/README.md)
-      * [/kabum/items.py](https://github.com/leuthier/kabum-scrapy/blob/master/README.md)
+      * [/kabum/spiders/kb.py](https://github.com/leuthier/kabum-scrapy#arquivo-kabumspiderskbpy)
+      * [/kabum/pipelines.py](https://github.com/leuthier/kabum-scrapy#arquivo-kabumpipelinespy)
+      * [/kabum/settings.py](https://github.com/leuthier/kabum-scrapy#arquivo-kabumsettingspy)
+      * [/kabum/items.py](https://github.com/leuthier/kabum-scrapy#arquivo-kabumitemspy)
   * [Tempo gasto](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#tempo-gasto)
   * [Programas utilizados](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#programas-utilizados)
   * [Referências](https://github.com/leuthier/kabum-scrapy/blob/master/README.md#material)
