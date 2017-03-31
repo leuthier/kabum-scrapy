@@ -1,0 +1,16 @@
+# Created by https://www.gitignore.io/api/python
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Scrapy stuff:
+.scrapy
+
+# End of https://www.gitignore.io/api/python
